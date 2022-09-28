@@ -31,8 +31,7 @@ backdrop of
 the background color
 Parameters: color1(tuple) is background, color2(tuple) is foreground. loop(int) is how much
 the color moves around. count(int) is the space between chasing pixels. delay(floating
-point)
-is the time it takes to move color
+point)is the time it takes to move color
 Return value: none
 '''
 def chase(color1, color2, loop=10, delay=0.1):
@@ -74,8 +73,7 @@ def fade_in(color, delay=0.01):
 Function: fade_out
 Description: This function fades a color to black
 Parameters: color(tuple) - the starting color that is being faded to black,
-delay(floating point)
-is the time needed to fade out
+delay(floating point)is the time needed to fade out
 Return value: none
 '''
 def fade_out(color, delay=0.01):
